@@ -4,17 +4,18 @@
 Criando uma aplicação que automatize a organização de projetos por curso e otimize o tempo para a entrega dos resultados baseados em cursos e modelo avaliativo.
 
 ## Introdução
-Neste estudo de caso, apresentamos a nossa abordagem para melhorar a experiência do usuário (UX) de um aplicativo de receitas para o cliente CookMaster. Descrevemos o problema que o cliente enfrentava e como nossa equipe de Design de UX/UI abordou esse desafio.
+Saiba como uma solução construida baseada em Design de Interação (UI) e experiência do Usuário (UX), busca melhorar a experiência de uma organizadora que enfrenta o trabalho manual de separar e redirecionar cada processo avaliativo e posteriormente calcular as notas finais e no outro lado o avaliador que não pode fazer tudo pelo seu celular com apenas a conexão de internet.
 
 ## Cliente
 - **Nome:** NUPEX
 - **Descrição:** NUPEX é um Núcleo de Ensino, Pesquisa e Extensão subordinado diretamente à Diretoria e ao Conselho de Ensino, Pesquisa e Extensão (CONSEPE) da Univiçosa, e tem como finalidade incentivar, coordenar e normatizar a realização de atividades que envolvam pesquisa e extensão dos cursos mantidos pela UNIVIÇOSA. Também, o NUPEX atua sob visão interinstitucional, multidisciplinar e multiprofissional as áreas de concentração e linhas de pesquisa desenvolvidas por professores pesquisadores da Instituição, estimulando interesses e habilidades pela investigação científica nos professores e alunos, sem deixar de criar e utilizar meios adequados, como as revistas acadêmicas, para divulgação das produções científicas. 
 
 ## Desafio
-CookMaster queria melhorar a experiência do usuário em seu aplicativo de receitas para aumentar a retenção de usuários e torná-lo mais atraente.
+O SIMPAC é um simpósio de produção acadêmica na qual ocorre uma premiação ao final do simpósio para os melhores grupos avaliados dentro de cada curso e método de apresentação. Um dos grandes desafios é primeiramente entregar este resultado assim que finalizado o evento e evitar que uma folha avaliativa necessite ser reescrita para cada avaliador e trabalho. Desgastando a organização deste evento.
 
-## Minha Função
-Como Designer de UX/UI, fui contratado para liderar o redesign do aplicativo e melhorar a usabilidade.
+## <span style="color:rgba(0,0,0,0.5);">Como solucionar esse problema?</span>
+
+
 
 ## Pesquisa e Descoberta
 Descrevemos a metodologia que seguimos para entender as necessidades dos usuários e o cenário atual do aplicativo.
