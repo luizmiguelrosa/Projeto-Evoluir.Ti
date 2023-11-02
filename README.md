@@ -1,3 +1,4 @@
+![Logo_Atomic](./Processos/Sprint_1/Logo/Logo_Atomic_Code_(sem_fundo).png)
 # Estudo de Caso de UX/UI
 
 ## Projeto SIMPAC - Criando uma aplicação para avaliação de trabalho
