@@ -21,30 +21,41 @@ O SIMPAC é um simpósio de produção acadêmica na qual ocorre uma premiação
 Descrevemos a metodologia que seguimos para entender as necessidades dos usuários e o cenário atual do aplicativo.
 
 ### Metodologia
-- Realizamos entrevistas com usuários para entender seus principais desafios ao usar o aplicativo existente.
+- Realizamos uma reunião para entender o funcionamento do Simpósio e também a problemática da gestora ou organizadora do evento.
 - Conduzimos uma análise da concorrência para identificar as melhores práticas do setor.
-- Realizamos testes de usabilidade no aplicativo existente para identificar os principais pontos problemáticos.
+- Conduzimos uma pesquisa para identificar as repetições e pontos a serem melhorados na atual forma de avaliar disponível
+- Realizamos testes de usabilidade no prototipo pessoas na faixa etária de 18 a 25 anos para identificar os principais pontos problemáticos.
+- Realizamos testes de usabilidade no prototipo com pessoas na faixa etária de 40 a 50 anos para identificar os principais pontos problemáticos.
 
 ### Resultados da Pesquisa
-- Usuários relataram dificuldade em encontrar receitas específicas.
-- A navegação no aplicativo era confusa, com menus desorganizados.
-- A falta de imagens de alta qualidade nas receitas era um problema comum.
-- Concorrência tinha uma interface mais intuitiva e atraente.
+- Foi possível distinguir o presente público em 3 nichos.
+- O primeiro que é o gestor ou administrador do evento. O segundo sendo o grupo responsável por realizar as avaliações e o terceiro sendo o público afetado, que depende dos resultados definidos pelo segundo grupo e os resultados gerais definidos pelo primeiro grupo.
+- Usuários relataram dificuldade e demora para ter acesso aos resultados finais.
+- A gerência dos paineis impressos são de dificil manuseio além de trabalho repetitivo à organização.
+- A criação de uma ferramenta que agilize esse processo é uma opção válida.
 
 ## Design e Iteração
 Descrevemos as soluções propostas e como as implementamos.
 
 ### Soluções Propostas
-- Redesenhamos a estrutura de navegação para simplificar a busca por receitas.
-- Criamos um sistema de categorização de receitas para facilitar a descoberta.
-- Melhoramos a qualidade das imagens e o layout das páginas de receitas.
+- Manter um mesmo padrão quanto ao metodo avaliativo e mudar apenas o layout.
+- Criamos uma ideia sistema com níveis de acesso, um para o gestor/organização e um para o avaliador.
+- Para a criação de login do avaliador a senha será randomica, evitando senhas criadas pelos usuários e possível falha de segurança com senhas.
+- Implementar de uma maneira fácil a criação de avaliadores e também a deleção do mesmo caso a senha seja perdida.
+- A criação de um avaliador será enviado a senha por email e celular cadastrado.
+- o login do avaliador será pela senha enviada previamente e um email ou celular.
 - Reformulamos o design geral para torná-lo mais atraente e moderno.
+- Para criação de um painel será preciso colocar os dados como resumo , protocolo , curso , método avaliativo ao qual se encaixa e a seleção de avaliadores.
+- Terá uma área para uma edição de trabalhos ou uma exclusão caso seja necessário
+- Todos trabalhos terão suas notas enviadas a um banco de dados para que lá passe por um refinamento de curso e modo de avaliação afim de entregar o resultado assim que encerrar a edição.
 
 ### Protótipos
-- Incluímos imagens de protótipos de telas-chave para mostrar como as mudanças de design foram implementadas.
+- Incluímos imagens e vídeos de protótipos de telas-chave e comportamento de alguns botões para o cliente entender a lógica da aplicação.
+![Protipo_1](./Processos/Sprint_3/prancheta%20mobile.png)
+![Protipo_1.2](./Processos/Sprint_3/Visão%20alta.png)
 
 ## Testes e Validação
-Descrevemos como testamos as soluções propostas e os resultados finais.
+<!-- Descrevemos como testamos as soluções propostas e os resultados finais. 
 
 ## Resultados Finais
 - As taxas de retenção de usuários aumentaram em 30% após o lançamento do novo design.
@@ -66,3 +77,4 @@ Este estudo de caso demonstra nossa capacidade de abordar problemas de UX/UI, co
 
 [Incluir imagens ou links relevantes, se aplicável.]
 
+-->
