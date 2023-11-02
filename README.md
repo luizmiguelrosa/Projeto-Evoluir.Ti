@@ -1,4 +1,6 @@
-![Logo_Atomic](./Processos/Sprint_1/Logo/Logo_Atomic_Code_(sem_fundo).png)
+<img src="./Processos/Sprint_1/Documentos/Logo_Atomic_Code.jpeg" alt="Logo Atomic Code" width="200" height="100">
+
+
 # Estudo de Caso de UX/UI
 
 ## Projeto SIMPAC - Criando uma aplicação para avaliação de trabalho
