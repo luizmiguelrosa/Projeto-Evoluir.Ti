@@ -87,7 +87,7 @@ O SIMPAC, um simpósio acadêmico, enfrenta desafios na entrega eficiente de res
 
 - Protótipo de Alta Fidelidade
 
-[Protótipo](<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyDMbtaIZQP5urNRLNSLaIW%2FSIMPAC-por-Vinicius%3Ftype%3Ddesign%26node-id%3D1-4%26t%3DI9H7ZyO9Fwrh1jV3-1%26scaling%3Dscale-down%26page-id%3D32%253A289%26starting-point-node-id%3D1%253A4%26show-proto-sidebar%3D1%26mode%3Ddesign" allowfullscreen></iframe>)
+[Protótipo](https://www.figma.com/proto/yDMbtaIZQP5urNRLNSLaIW/SIMPAC-por-Vinicius?type=design&node-id=1-4&t=I9H7ZyO9Fwrh1jV3-1&scaling=scale-down&page-id=32%3A289&starting-point-node-id=1%3A4&show-proto-sidebar=1&mode=design)
 
 
 ### Testes e Validação
