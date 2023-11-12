@@ -70,6 +70,14 @@ Baseado no storytelling, as personas foram criadas para representar os stakehold
 ![persona](./Processos/Sprint_3/Relatorio%20Atualizado/Persona-1_page-0001.jpg)
 ![persona2](./Processos/Sprint_3/Relatorio%20Atualizado/Persona-1_page-0002.jpg)
 
+---
+
+## WHEN/WHERE?
+
+### Mapa de Empatia
+- Para entender melhor as necessidades dos stakeholders, utilizamos o mapa de empatia, assim tivemos uma visão de onde focar nossos estudos para criarmos uma solução de agrado a todos.
+![Mapa_Empatia](./Processos/Sprint_3/Relatorio%20Atualizado/Mapa_de_Empatia.jpeg)
+
 ### Pesquisa e Descoberta
 #### Metodologia
 - Reunião de Entendimento do SIMPAC
