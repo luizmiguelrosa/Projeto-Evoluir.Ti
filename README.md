@@ -130,20 +130,14 @@ A partir do fluxograma, foi criado então o wireframe, que é uma representaçã
 [Protótipo](https://www.figma.com/proto/yDMbtaIZQP5urNRLNSLaIW/SIMPAC-por-Vinicius?type=design&node-id=1-4&t=I9H7ZyO9Fwrh1jV3-1&scaling=scale-down&page-id=32%3A289&starting-point-node-id=1%3A4&show-proto-sidebar=1&mode=design)
 
 
-### Testes e Validação
-#### Resultados dos Testes e Validação
-- Aumento de 30% na Retenção de Usuários
-- Elogios à Usabilidade Aprimorada
-- Aprovação do Novo Design
 
-### Próximos Passos e Desenvolvimentos Futuros
-- Implementação e Lançamento: [Inserir Datas]
-- Avaliação Contínua e Feedback Pós-Lançamento
-- Desenvolvimentos Futuros com Base no Feedback
 
 ### Conclusão Final
 - Avaliação do Impacto Geral no Usuário
 - Benefícios Alcançados com o Novo Design
 
 ### Agradecimentos e Reconhecimentos
-- Membros da Equipe Envolvidos e Seus Papéis
+### Esse trabalho consiste um projeto em que os papeis se alternaram a cada sprint e todos tiveram uma participação fundamental.
+- Marcos (CEO)
+- Vinicius Fontes (SCRUM, PO, Design, Analista de sistema)
+
