@@ -78,8 +78,8 @@ O SIMPAC, um simpósio acadêmico, enfrenta desafios na entrega eficiente de res
 - Versão de baixo nível no papel
 
 ![V.1 Atomic Code](./Processos/Sprint_3/V.%20Intermediaria%20da%20solucao/d-1%20papel.jpg)
-![versão baixo nível](../Projeto-SIMPAC/Processos/Sprint_3/V.%20Intermediaria%20da%20solucao/d-1.1%20papel.jpg)
-![versão baixo nível](../Projeto-SIMPAC/Processos/Sprint_3/V.%20Intermediaria%20da%20solucao/d-1.2%20papel.jpg)
+![V.1-1 Atomic Code](./Processos/Sprint_3/V.%20Intermediaria%20da%20solucao/d1.1%20papel.jpg)
+![V.1-2 Atomic Code](./Processos/Sprint_3/V.%20Intermediaria%20da%20solucao/d-1.2%20papel.jpg)
 
 - Fluxograma
 [ Inserir fluxograma]
