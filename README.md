@@ -77,7 +77,7 @@ O SIMPAC, um simpósio acadêmico, enfrenta desafios na entrega eficiente de res
 
 - Versão de baixo nível no papel
 
-![versão baixo nível](../Projeto-SIMPAC/Processos/Sprint_3/V.%20Intermediaria%20da%20solucao/d-1%20papel.jpg)
+![V.1 Atomic Code](./Processos/Sprint_1/Documentos/Logo_Atomic_Code.jpeg)
 ![versão baixo nível](../Projeto-SIMPAC/Processos/Sprint_3/V.%20Intermediaria%20da%20solucao/d-1.1%20papel.jpg)
 ![versão baixo nível](../Projeto-SIMPAC/Processos/Sprint_3/V.%20Intermediaria%20da%20solucao/d-1.2%20papel.jpg)
 
