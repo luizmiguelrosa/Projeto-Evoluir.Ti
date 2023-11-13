@@ -138,6 +138,6 @@ A partir do fluxograma, foi criado então o wireframe, que é uma representaçã
 
 ### Agradecimentos e Reconhecimentos
 ### Esse trabalho consiste um projeto em que os papeis se alternaram a cada sprint e todos tiveram uma participação fundamental.
-- Marcos (CEO)
+- Marcos Vinícius Costa Coelho (CEO)
 - Vinicius Fontes (SCRUM, PO, Design, Analista de sistema)
 
