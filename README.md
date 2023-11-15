@@ -8,8 +8,8 @@ Saiba como uma solução construída com base em Design de Interação (UI) e ex
 
 ## Quando (WHEN)
 ### Cronograma do Projeto
-- Início do Projeto: [Inserir Data]
-- Término do Projeto: [Inserir Data]
+- Início do Projeto: [ 20*09/2023 ]
+- Término do Projeto: [ 29/11/2023]
 
 ### Fases do Projeto
 1. **Pesquisa e Descoberta:**
@@ -19,13 +19,17 @@ Saiba como uma solução construída com base em Design de Interação (UI) e ex
     - [11/10/2023 à 31/10/2023]
 
 3. **Testes e Validação:**
-    - [01/11/2023 à 15/11/2023]
+    - [01/11/2023 à 29/11/2023]
 
 
 ## Quem (WHO)
 ### Envolvidos no Projeto
 - **Equipe de Design e Desenvolvimento:**
-  - [Inserir Nomes e Funções]
+- Marcos Vinícius Costa Coelho (CEO)
+- Vinicius Fontes (SCRUM, PO, Design, Analista de sistema)
+- Higor Luiz Saraiva Rigueira Queiroz (PO, Design, Analista de sistema, SCRUM)
+- Gabriel Ribas Pena (Analista de sistema, SCRUM, PO, Design)
+- João Victor Gomes Lopes de Abreu (Design, Analista de sistema, SCRUM, PO)
 - **Clientes e Stakeholders:**
   - NUPEX - Núcleo de Ensino, Pesquisa e Extensão
   - Eliene Coordenadora SIMPAC
@@ -124,20 +128,42 @@ A partir do fluxograma, foi criado então o wireframe, que é uma representaçã
 
 ![Wireframe](./Processos/Sprint_4/Wireframe.png)
 
+### Protótipo de Media Fidelidade
+- Pelo aplicativo Figma foi desenvolvido um protótipo de média fidelidade, com o uso de componentes para simular botões e passando uma ideia de como funcionaria a aplicação.
+![Visão_Prancheta](./Processos/Sprint_3/V.%20Intermediaria%20da%20solucao/Visão%20alta.png) 
 
 # Protótipo de Alta Fidelidade
 
-[Protótipo](https://www.figma.com/proto/yDMbtaIZQP5urNRLNSLaIW/SIMPAC-por-Vinicius?type=design&node-id=1-4&t=I9H7ZyO9Fwrh1jV3-1&scaling=scale-down&page-id=32%3A289&starting-point-node-id=1%3A4&show-proto-sidebar=1&mode=design)
+- [Protótipo_Mobile](https://www.figma.com/proto/yDMbtaIZQP5urNRLNSLaIW/SIMPAC-por-Vinicius?type=design&node-id=1-4&t=I9H7ZyO9Fwrh1jV3-1&scaling=scale-down&page-id=32%3A289&starting-point-node-id=1%3A4&show-proto-sidebar=1&mode=design)
+- [Protótipo_Desktop](https://www.figma.com/proto/bKh50EThTPfSIAmffkghy4/Untitled?type=design&node-id=0-3&t=LEdIqh2ObP9xoNPn-1&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=0%3A3&mode=design)
+
 
 
 
 
 ### Conclusão Final
-- Avaliação do Impacto Geral no Usuário
-- Benefícios Alcançados com o Novo Design
+#### Transformando Desafios em Triunfos com o Projeto SIMPAC
 
-### Agradecimentos e Reconhecimentos
-### Esse trabalho consiste um projeto em que os papeis se alternaram a cada sprint e todos tiveram uma participação fundamental.
-- Marcos Vinícius Costa Coelho (CEO)
-- Vinicius Fontes (SCRUM, PO, Design, Analista de sistema)
+Ao longo deste estudo de caso dedicado à melhoria da experiência de organizadores, avaliadores e demais stakeholders do SIMPAC, mergulhamos em uma jornada de inovação guiada pelo Design de Interação (UI) e pela Experiência do Usuário (UX). Este projeto, sob a liderança visionária de Marcos Vinícius Costa Coelho, CEO da Atomic Code, não apenas enfrentou os desafios preexistentes, mas os transformou em triunfos.
+Impacto Geral no Usuário:
+
+O novo design e a estrutura de interação propostos foram cuidadosamente elaborados para proporcionar uma experiência fluida e eficiente. Ao automatizar a organização de projetos, padronizar métodos avaliativos e oferecer níveis de acesso personalizados, alcançamos um impacto significativo na jornada dos usuários-alvo. Os gestores do SIMPAC agora desfrutam de uma gestão simplificada, avaliadores têm processos otimizados e o público afetado pelos resultados beneficia-se de entregas mais rápidas e precisas.
+Benefícios Alcançados com o Novo Design:
+
+- Eficiência Operacional: A automação da organização de projetos resultou em uma significativa redução do trabalho manual, liberando tempo valioso para os organizadores focarem em aspectos estratégicos.
+
+- Agilidade na Entrega de Resultados: A padronização dos métodos avaliativos e a criação de um sistema de níveis de acesso permitiram uma análise mais rápida e justa, proporcionando resultados precisos em tempo hábil.
+
+- Facilidade de Uso: A reformulação do design, desde a interface até a navegação, transformou a aplicação em uma ferramenta intuitiva e de fácil utilização, promovendo a adesão dos usuários.
+
+- Segurança e Comunicação Aprimoradas: A introdução de login e senha para avaliadores, juntamente com a comunicação segura por e-mail e celular, fortaleceu a segurança do sistema e facilitou a comunicação entre os envolvidos.
+
+## Agradecimentos e Reconhecimentos:
+
+Este projeto não teria sido possível sem a colaboração dedicada de uma equipe multifuncional. Agradecemos especialmente a **Marcos Vinícius Costa Coelho, Vinicius Fontes, Higor Luiz Saraiva Rigueira Queiroz, Gabriel Ribas Pena e João Victor Gomes Lopes de Abreu**, cujas habilidades, insights e esforços foram fundamentais em cada fase do projeto.
+Considerações Finais:
+
+O SIMPAC não é mais apenas um simpósio; tornou-se um exemplo vivo de como a inovação, aliada ao design inteligente, pode transformar desafios em triunfos. A história de Marcos e a ferramenta de Design de Interação agora são parte integrante do legado do SIMPAC, inspirando futuras edições a alcançarem a excelência na produção acadêmica. Este projeto não é apenas uma conclusão; é um convite para um novo capítulo de eficiência, agilidade e excelência no mundo acadêmico.
+
+Agradecemos a todos os envolvidos por fazerem do SIMPAC um verdadeiro marco na interseção entre tecnologia, design e produção acadêmica. Que esta jornada inspire muitos outros a transformarem desafios em oportunidades de triunfo.
 
