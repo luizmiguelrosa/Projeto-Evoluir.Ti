@@ -80,7 +80,8 @@ Baseado no storytelling, as personas foram criadas para representar os stakehold
 
 ### Mapa de Empatia
 - Para entender melhor as necessidades dos stakeholders, utilizamos o mapa de empatia, assim tivemos uma visão de onde focar nossos estudos para criarmos uma solução de agrado a todos.
-![Mapa_Empatia](./Processos/Sprint_3/Relatorio%20Atualizado/Mapa_de_Empatia.jpeg)
+![Mapa_Empatia](./Processos/Sprint_3/Relatorio%20Atualizado/Mapa_de_Empatia_1.pdf.png)
+![Mapa_Empatia2](./Processos/Sprint_3/Relatorio%20Atualizado/Mapa_de_Empatia_2.pdf.png)
 
 ### Pesquisa e Descoberta
 #### Metodologia
