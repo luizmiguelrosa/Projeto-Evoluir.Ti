@@ -112,9 +112,9 @@ Para entender melhor as necessidades dos stakeholders, utilizamos o mapa de empa
 
 <div align="center">
     <img src="./Imagens/Mapa_de_Empatia_1.pdf.png" style="width:1280px; height:720px"/>
-    <p>Figura 3 - Mapa de Empatia do Marcos Silva</p>
+    <p>Figura 4 - Mapa de Empatia do Marcos Silva</p>
     <img src="./Imagens/Mapa_de_Empatia_2.pdf.png" style="width:1280px; height:720px"/>
-    <p>Figura 4 - Mapa de Empatia da Luana Pereira</p>
+    <p>Figura 5 - Mapa de Empatia da Luana Pereira</p>
 </div>
 
 <h1 id="requisitos">Especificação de Requisitos</h1>
@@ -142,8 +142,8 @@ https://www.figma.com/file/3RcvZjYx66Hn4ibVR8qiTA/SIMPAC-PROJETO?type=design&nod
 - Foi organizado um fluxograma para orgarnizar as informações, identificar ações que podem ser feitas para os objetivos da organização ou avaliador.
 
 <div align="center">
-    <img src="./Imagens/Fluxograma%20SIMPAC.png" style="width:1280px; height:740px"/>
-    <p>Figura 5 - Fluxograma do Sistema</p>
+    <img src="./Imagens/Fluxograma%20SIMPAC.png" style="width:1280px; height:600px"/>
+    <p>Figura 6 - Fluxograma do Sistema</p>
 </div>
 
 
