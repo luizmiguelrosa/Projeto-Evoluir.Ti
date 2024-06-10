@@ -9,18 +9,18 @@
 - <a href="#introducao">Introdução</a>
 - <a href="#ciclo_vida">Ciclo de Vida</a>
 - <a href="#analise_de_tarefas">Análise de Tarefas, Usuário e Funções</a>
-- <a href="#requisitos">Especificação de Requisitos</a>
+- <a href="#requisitos">Engenharia de Requisitos</a>
 - <a href="#projeto_conceitual">Projeto Conceitual e Especificaçao do Design</a>
 - <a href="#implementacao">Implementação</a>
 - <a href="#conclusao">Conclusão</a>
 
-<h1 id="introducao">Introdução</h1>
+<h1 id="introducao">1. Introdução</h1>
 
 É um projeto idealizado para solucionar os desafios na hora da avaliação dos trabalhos dos alunos da Univiçosa durante o Simpósio de Produção Acadêmica - SIMPAC. Dentre os desafios, está a automatização da organização de projetos, otimização do tempo e a melhora da entrega dos resultados. De acordo com a demanda proposta pela CEO da NUPEX (Núcleo de Apoio à Pesquisa e Extensão da Univiçosa) Eliene da Silva Martins Viana, o que antes era feito no papel, agora terá que ser implementado em uma aplicação web responsiva que estará disponível para dispositivos móveis e também para desktops.
 
 Pela grande falta de praticidade na hora das avaliações e por terem que entregar uma folha preenchida com cada grupo para cada avaliador, nossa aplicação será de uma grande ajuda, visto que ela automatizará toda essa questão de gestão de trabalhos e suas respectivas notas, o que poupará tempo e dinheiro.
 
-<h1 id="ciclo_vida">Ciclo de Vida</h1>
+<h1 id="ciclo_vida">2. Ciclo de Vida</h1>
 
 Um modelo de ciclo de vida nas atividades de design de interfaces é um
 framework ou abordagem que descreve as etapas pelas quais um projeto de
@@ -30,7 +30,7 @@ todos os aspectos do design sejam considerados e tratados adequadamente
 ao longo do processo. O modelo utilizado no projeto Evoluir.Ti foi o Modelo
 Estrela (Hartson e Hix, 1989).
 
-## Modelo Estrela
+## 2.1. Modelo Estrela
 
 O modelo estrela de design de interfaces, também conhecido como “Star Model”, é um modelo de ciclo de vida com uma abordagem que visa criar interfaces de usuário eficazes e centradas no usuário. Este modelo é chamado assim devido à sua estrutura central, que é cercada por cinco componentes principais, semelhantes aos raios de estrela.
 
@@ -39,25 +39,25 @@ O modelo estrela de design de interfaces, também conhecido como “Star Model�
     <p>Figura 1 - Modelo de Ciclo de Vida Estrela</p>
 </div>
 
-<h1 id="analise_de_tarefas">Análise de Tarefas, Usuário e Funções</h1>
+<h1 id="analise_de_tarefas">3. Análise de Tarefas, Usuário e Funções</h1>
 
-## Cenário Atual
+## 3.1. Cenário Atual
 
 Atualmente, o processo de avaliação e entrega do SIMPAC é realizado de forma manual. Este processo envolve a coleta de avaliações dos trabalhos acadêmicos em formato de papel. Tal abordagem resulta em alguns problemas:
 1. **Erros Humanos:** A manipulação manual dos documentos aumenta a probabilidade de erros, tanto na coleta quanto na avaliação dos trabalhos.
 2. **Ineficiente e Demorado:** A necessidade de lidar com documentos físicos torna o processo lento e ineficiente, causando atrasos significativos e dificultando a gestão das avaliações.
 3. **Precisão dos Resultados:** A precisão dos resultados é comprometida, uma vez que a natureza manual do processo aumenta a possibilidade de erros e inconsistências na avaliação dos trabalhos.
 
-## Análise de Tarefas
+## 3.2 Análise de Tarefas
 
 Para transformar o processo manual em uma aplicação web responsiva, é necessário
 identificar e analisar cada tarefa envolvida.
 
-### Submissão dos trabalhos:
+### 3.2.1. Submissão dos trabalhos:
 - **Usuários:** Alunos
 - **Tarefa:** Submeter trabalhos acadêmicos via plataforma online.
 - **Função necessária:** Formulário de submissão com suporte a uploads de arquivos.
-### Organização dos trabalhos:
+### 3.2.2. Organização dos trabalhos:
 - **Usuários:** Administradores
 - **Tarefa:** Classificar e organizar trabalhos submetidos por esses alunos e designar
 trabalhos aos avaliadores, compilar e calcular resultados das avaliações feitas por
@@ -65,17 +65,17 @@ esses avaliadores.
 - **Função necessária:** uma interface com gerenciamento dos trabalhos submetidos
 com filtragem e categorização e um Sistema de distribuição automatizada com
 notificações. Sistema de tabulação automática com geração de relatórios.
-### Avaliação:
+### 3.2.3. Avaliação:
 - **Usuários:** Avaliadores
 - **Tarefa:** Avaliar trabalhos e inserir notas/comentários aos alunos.
 - **Função necessária:** Interface de avaliação com campos para notas e
 comentários.
-### Divulgação dos resultados:
+### 3.2.4. Divulgação dos resultados:
 - **Usuários:** tanta pode ser alunos quanto avaliadores e administradores
 - **Tarefa:** Acessar os resultados das avaliações submetidas .
 - **Função necessária:** Página de resultados fácil e acessível ao usuário com opções de exportação a esses resultados .
 
-## Storytelling
+## 3.3. Storytelling
 
 Há muito tempo, em um mundo acadêmico não tão distante, um dedicado organizador enfrentava um desafio épico. Seu nome era Marcos, e ele liderava a organização do SIMPAC, um prestigiado simpósio de produção acadêmica. A missão de Marcos era grandiosa: garantir que cada participante recebesse uma avaliação justa e rápida.
 
@@ -89,13 +89,13 @@ E assim, a história de Marcos e a ferramenta de Design de Interação se tornou
 
 No final, Marcos não era apenas um organizador; ela se tornou uma verdadeiro guardião da eficiência, mostrando que, com a ferramenta certa, até mesmo os desafios mais formidáveis podem ser superados. E assim, a cada SIMPAC subsequente, a lembrança da jornada de Marcos continuava a inspirar e guiar aqueles que buscavam a excelência na produção acadêmica.
 
-## Stakeholders
+## 3.4. Stakeholders
 
 - Gestores/Organizadores do SIMPAC
 - Avaliadores e Grupos Avaliados
 - Público Afetado pelos Resultados
 
-## Personas
+## 3.5. Personas
 
 Baseado no storytelling, as personas foram criadas para representar os stakeholders.
 
@@ -106,7 +106,7 @@ Baseado no storytelling, as personas foram criadas para representar os stakehold
     <p>Figura 3 - Persona da Luana Pereira</p>
 </div>
 
-## Mapa de Empatia
+## 3.6. Mapa de Empatia
 
 Para entender melhor as necessidades dos stakeholders, utilizamos o mapa de empatia, assim tivemos uma visão de onde focar nossos estudos para criarmos uma solução de agrado a todos.
 
@@ -117,37 +117,105 @@ Para entender melhor as necessidades dos stakeholders, utilizamos o mapa de empa
     <p>Figura 5 - Mapa de Empatia da Luana Pereira</p>
 </div>
 
-<h1 id="requisitos">Especificação de Requisitos</h1>
+<h1 id="requisitos">4. Engenharia de Requisitos</h1>
 
-## Objetivos do Projeto
+## 4.1. Especificação de Requisitos
+
+### 4.1.1. Elicitação de Requisitos
+
+<hr>
+
+Em uma reunião virtual em 4 de outubro de 2023, liderada pelo PO Vinicius Fontes, foram levantados os requisitos para o projeto da Atomic Code. A cliente destacou a necessidade de automatizar o processo manual de avaliação do SIMPAC, tornando-o mais simples e rápido. Decidiu-se criar uma prototipagem de uma aplicação web acessível por celular durante as avaliações, em vez de um aplicativo completo. A reunião esclareceu dúvidas e definiu um direcionamento para a primeira prototipagem.
+
+### 4.1.2. Análise de Requisitos
+
+<hr>
+
+#### Atores
+- Administrador
+- Avaliador
+- Usuário
+
+#### Casos de Uso
+
+- [Diagrama de Caso de Uso](./Imagens/Diagrama%20de%20Caso%20de%20Uso.pdf)
+
+**Efetuar Login**
+- Ator Principal: Usuário
+- Descrição: Permite que o usuário faça login no sistema.
+- Inclui: Verificar Senha
+- Cenário Alternativo: Exibir Erro de Login
+
+**Verificar Senha**
+- Ator Principal: Sistema (sub-caso de Efetuar Login)
+- Descrição: Verifica se a senha fornecida está correta.
+- Extende: Exibir Erro de Login
+
+**Exibir Erro de Login**
+- Ator Principal: Sistema (sub-caso de Verificar Senha)
+- Descrição: Exibe uma mensagem de erro se a senha estiver incorreta.
+- Extendido por: Verificar Senha
+
+**Recuperar Senha**
+- Ator Principal: Usuário
+- Descrição: Permite ao usuário recuperar a senha esquecida.
+- Extende: Verificar Senha
+
+**Filtrar Resultados**
+- Ator Principal: Usuário
+- Descrição: Permite que o usuário filtre os resultados apresentados pelo sistema.
+
+**Visualizar Trabalhos**
+- Ator Principal: Usuário
+- Descrição: Permite ao usuário visualizar os trabalhos disponíveis no sistema.
+
+**Gerenciar Trabalhos**
+- Ator Principal: Administrador
+- Descrição: Permite que o administrador gerencie os trabalhos no sistema.
+
+**Gerenciar Usuários**
+- Ator Principal: Administrador
+- Descrição: Permite que o administrador gerencie os usuários do sistema.
+
+**Atribuir Papel ao Avaliador**
+- Ator Principal: Administrador
+- Descrição: Permite que o administrador atribua o papel de avaliador a um usuário.
+
+### 4.1.3. Objetivos do Projeto
+
+<hr>
 
 O principal objetivo desse projeto é entregar a melhor experiência possível para os administradores e avaliadores dos trabalhos, tornando o evento do SIMPAC mais dinâmico e organizado. Mas não só isso, também focamos em entregar uma aplicação que esteja disponível para que os mais diversos usuários possam desfrutar dos trabalhos entregues pelos alunos, seja por curiosidade, por fins acadêmicos ou até mesmo para inspiração.
 
-## Desafio
+### 4.1.4. Desafio
+
+<hr>
 
 - Garantir a atribuição equitativa, eficiente e apropriada de avaliadores para os trabalhos, levando em consideração a disponibilidade de cada um.
 - Agilizar a coleta e o processamento das notas de forma mais automatizada.
 - Assegurar a justiça e imparcialidade nas avaliações, mantendo a qualidade.
 - Gerenciar uma alta carga de trabalho, incluindo a avaliação simultânea de múltiplos trabalhos.
 
-## Prototipação
+### 4.1.5. Prototipação
+
+<hr>
 
 Link para o protótipo no Figma:
 https://www.figma.com/file/3RcvZjYx66Hn4ibVR8qiTA/SIMPAC-PROJETO?type=design&node-id=0%3A1&mode=design&t=T04ho3tIh2vIzivS-1
 
-<h2 id="projeto_conceitual">Projeto Conceitual e Especificaçao do Design</h2>
+<h2 id="projeto_conceitual">5. Projeto Conceitual e Especificaçao do Design</h2>
 
-## Fluxograma
+## 5.1. Fluxograma
 
-- Foi organizado um fluxograma para orgarnizar as informações, identificar ações que podem ser feitas para os objetivos da organização ou avaliador.
+Foi organizado um fluxograma para orgarnizar as informações, identificar ações que podem ser feitas para os objetivos da organização ou avaliador.
 
+![Wireframe](./Imagens/Fluxograma%20SIMPAC.png)
 <div align="center">
-    <img src="./Imagens/Fluxograma%20SIMPAC.png" style="width:1280px; height:600px"/>
     <p>Figura 6 - Fluxograma do Sistema</p>
 </div>
 
 
-## Wireframe
+## 5.2. Wireframe
 
 A partir do fluxograma, foi criado então o wireframe, que é uma representação visual básica e esquemática da estrutura de nossa aplicação web. Seu objetivo principal pe definir a distribuição de elementos da natela, sem se preocupar muito com detalhes visuais.
 
@@ -159,11 +227,11 @@ A partir do fluxograma, foi criado então o wireframe, que é uma representaçã
 
 ![Wireframe](./Imagens/Wireframe.png)
 
-<h1 id="implementacao">Implementação</h1>
+<h1 id="implementacao">6. Implementação</h1>
 
 Essa fase será feita no próximo semestre, nas disciplinas de **Arquitetura de Software** e **Projeto de Sistemas para Internet**, por questões de complexidade do projeto.
 
-<h1 id="conclusao">Conclusão</h1>
+<h1 id="conclusao">7. Conclusão</h1>
 
 A aplicação se encontra na metade do caminho, temos uma boa base de requisitos já definidos e validados, protótipos de baixo e de médio nível, como também, um de alto nível muito dinâmico e intuitivo. Também temos nossas personas, mapas de empatia e fluxograma.
 
