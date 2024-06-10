@@ -100,9 +100,9 @@ No final, Marcos não era apenas um organizador; ela se tornou uma verdadeiro gu
 Baseado no storytelling, as personas foram criadas para representar os stakeholders.
 
 <div align="center">
-    <img src="./Imagens/Persona-1_page-0001.jpg" style="width:1280px; height:720px"/>
+    <img src="./Imagens/Persona-1_page-0001.jpg" style="width:1280px; height:568px"/>
     <p>Figura 2 - Persona do Marcos Silva</p>
-    <img src="./Imagens/Persona-1_page-0002.jpg" style="width:1280px; height:720px"/>
+    <img src="./Imagens/Persona-1_page-0002.jpg" style="width:1280px; height:568px"/>
     <p>Figura 3 - Persona da Luana Pereira</p>
 </div>
 
