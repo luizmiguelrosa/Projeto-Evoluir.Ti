@@ -201,6 +201,200 @@ O principal objetivo desse projeto é entregar a melhor experiência possível p
 
 <hr>
 
+#### Requisitos de Alto Nível
+
+##### 1. Aplicação web separada do site da Univiçosa
+
+<blockquote>
+<u><b>Consistência e Padrões</b></u>
+
+**Avaliação:** Mantém a consistência com a marca, o que ajuda na identificação e confiança do usuário. A separação clara pode fortalecer a identidade da aplicação, mas deve garantir que elementos essenciais de branding sejam mantidos.<br>
+**Sugestão:** Certificar-se de que os elementos visuais e a linguagem da marca Univiçosa sejam incorporados na nova aplicação para manter a consistência.
+</blockquote>
+
+<blockquote>
+<u><b>Reconhecimento em vez de memorização</b></u>
+
+**Avaliação:** A separação pode facilitar o reconhecimento do sistema como uma entidade distinta, mas pode exigir que os usuários aprendam uma nova interface.<br>
+**Sugestão:** Minimizar a curva de aprendizado utilizando ícones e terminologias familiares aos usuários do site principal.
+</blockquote>
+
+##### 2. Uma área para os avaliadores, administrador e usuários comuns (Alunos e demais participantes)
+
+<blockquote>
+<u><b>Flexibilidade e Eficiência de Uso</b></u>
+
+**Avaliação:** Facilita a personalização da experiência do usuário de acordo com suas necessidades específicas.<br>
+**Sugestão:** Implementar configurações personalizáveis para diferentes tipos de usuários para aumentar a eficiência de uso.
+</blockquote>
+
+<blockquote>
+<u><b>Controle e Liberdade do Usuário</b></u>
+
+**Avaliação:** Usuários sabem claramente onde devem acessar suas áreas específicas, reduzindo a possibilidade de erro.<br>
+**Sugestão:** Utilizar menus e navegações claras para separar as áreas de cada tipo de usuário, garantindo fácil acesso e minimização de erros.
+</blockquote>
+
+##### 3. Paleta de cores igual ao do site da Univiçosa
+
+<blockquote>
+<u><b>Estética e Design Minimalista</b></u>
+
+**Avaliação:** A uniformidade nas cores mantém a interface limpa e familiar, ajudando na navegabilidade e na estética geral.<br>
+**Sugestão:** Manter a paleta de cores consistente, mas explorar variações para destacar seções ou funcionalidades importantes.
+</blockquote>
+
+<hr>
+
+#### Administrador
+
+##### 4. Gestão de Trabalhos
+
+<blockquote>
+<u><b>Visibilidade do Status do Sistema</b></u>
+
+**Avaliação:** É importante que o administrador tenha feedback claro sobre o status das operações (e.g., sucesso ou erro ao cadastrar um trabalho).<br>
+**Sugestão:** Implementar mensagens de confirmação e alertas visuais claros após cada operação.
+</blockquote>
+
+<blockquote>
+<u><b>Prevenção de Erros</b></u>
+
+**Avaliação:** Formular validações de dados ajudam a evitar erros de entrada.<br>
+**Sugestão:** Utilizar validações em tempo real e fornecer feedback imediato sobre erros nos formulários.
+</blockquote>
+
+##### 5. Administração de Usuário
+
+<blockquote>
+<u><b>Controle e Liberdade do Usuário</b></u>
+
+**Avaliação:** Administradores devem ter a capacidade de desfazer ações (e.g., confirmação ao excluir um usuário).<br>
+**Sugestão:** Incluir funcionalidades de desfazer e confirmações para ações críticas.
+</blockquote>
+
+<blockquote>
+<u><b>Flexibilidade e Eficiência de Uso</b></u>
+
+**Avaliação:** Interfaces de gerenciamento devem ser eficientes para admins experientes, com atalhos e operações rápidas.<br>
+**Sugestão:** Prover atalhos de teclado e operações em massa para aumentar a eficiência administrativa.
+</blockquote>
+
+##### 6. Histórico de Trabalhos
+
+<blockquote>
+<u><b>Visibilidade do Status do Sistema</b></u>
+
+**Avaliação:** O histórico deve ser fácil de acessar e deve fornecer feedback claro sobre a visualização dos dados.<br>
+**Sugestão:** Incluir filtros e opções de busca para facilitar a navegação no histórico.
+</blockquote>
+
+<hr>
+
+#### Avaliadores
+
+##### 7. Dashboard de Avaliação
+
+<blockquote>
+<u><b>Consistência e Padrões</b></u>
+
+**Avaliação:** Painéis personalizados devem seguir padrões de design consistentes para facilitar o uso.<br>
+**Sugestão:** Utilizar uma estrutura de layout consistente com componentes reutilizáveis.
+</blockquote>
+
+<blockquote>
+<u><b>Reconhecimento em vez de Memorização</b></u>
+
+**Avaliação:** Critérios de avaliação e prazos devem ser visíveis e claros, evitando a necessidade de memorização.<br>
+**Sugestão:** Destacar informações importantes em locais visíveis e de fácil acesso.
+</blockquote>
+
+##### 8. Visualização de Trabalhos
+
+<blockquote>
+<u><b>Visibilidade do Status do Sistema</b></u>
+
+**Avaliação:** Detalhes dos trabalhos devem ser claros e acessíveis.<br>
+**Sugestão:** Utilizar layouts organizados e clareza na apresentação dos detalhes dos trabalhos.
+</blockquote>
+
+<blockquote>
+<u><b>Prevenção de Erros</b></u>
+
+**Avaliação:** Facilitar a navegação e a visualização correta das informações dos trabalhos atribuídos.<br>
+**Sugestão:** Incluir verificações de consistência e navegação intuitiva.
+</blockquote>
+
+##### 9. Registro de Avaliações
+
+<blockquote>
+<u><b>Flexibilidade e Eficiência de Uso</b></u>
+
+**Avaliação:** Formulários de avaliação devem ser intuitivos e eficientes para permitir avaliações rápidas e precisas.<br>
+**Sugestão:** Utilizar formulários dinâmicos e com feedback imediato para entradas.
+</blockquote>
+
+<blockquote>
+<u><b>Reconhecimento em vez de Memorização</b></u>
+
+**Avaliação:** Comentários e notas devem ser facilmente registráveis e editáveis.<br>
+**Sugestão:** Incluir opções de edição rápida e salvar automaticamente rascunhos de avaliações.
+</blockquote>
+
+##### 10. Comunicação com Organizadores
+
+<blockquote>
+<u><b>Ajuda e Documentação</b></u>
+
+**Avaliação:** Disponibilizar um meio de comunicação direto ajuda na resolução de problemas e dúvidas.<br>
+**Sugestão:** Implementar chat de suporte ou sistema de tickets com resposta rápida.
+</blockquote>
+
+<hr>
+
+#### Usuários Comuns
+
+##### 11. Visualização de Trabalhos
+
+<blockquote>
+<u><b>Reconhecimento em vez de Memorização</b></u>
+
+**Avaliação:** Navegação e visualização de trabalhos devem ser intuitivas, com informações importantes facilmente acessíveis.<br>
+**Sugestão:** Implementar uma interface de usuário limpa e intuitiva, com acesso rápido às informações relevantes.
+</blockquote>
+
+##### 12. Funcionalidades Sociais (opcional)
+
+<blockquote>
+<u><b>Flexibilidade e Eficiência de Uso</b></u>
+
+**Avaliação:** Recursos sociais devem ser opcionais e não devem interferir com as funções principais do sistema.<br>
+**Sugestão:** Incluir opções de ativar/desativar funcionalidades sociais conforme a preferência do usuário.
+</blockquote>
+
+<blockquote>
+<u><b>Ajuda e Documentação</b></u>
+
+**Avaliação:** Incluir guias para uso de funcionalidades sociais pode ajudar usuários que não estejam familiarizados com elas.<br>
+**Sugestão:** Disponibilizar tutoriais e FAQs para guiar os usuários no uso dessas funcionalidades.
+</blockquote>
+
+##### 13. Busca Avançada e Filtros
+
+<blockquote>
+<u><b>Estética e Design Minimalista</b></u>
+
+**Avaliação:** A busca avançada deve ser clara e fácil de usar, com resultados atualizados dinamicamente conforme os filtros são aplicados.<br>
+**Sugestão:** Implementar uma interface de busca simples com filtros visíveis e fáceis de aplicar.
+</blockquote>
+
+<blockquote>
+<u><b>Consistência e Padrões</b></u>
+
+**Avaliação:** Filtros e critérios de busca devem ser consistentes e intuitivos.<br>
+**Sugestão:** Manter uma estrutura padronizada para os filtros e opções de busca, facilitando o reconhecimento e uso eficiente.
+</blockquote>
+
 <h1 id="projeto_conceitual">5. Projeto Conceitual e Especificaçao do Design</h1>
 
 ## 5.1. Fluxograma
@@ -227,8 +421,7 @@ A partir do fluxograma, foi criado então o wireframe, que é uma representaçã
 
 <h1 id="prototipacao">6. Prototipação</h1>
 
-Link para o protótipo no Figma:
-https://www.figma.com/file/3RcvZjYx66Hn4ibVR8qiTA/SIMPAC-PROJETO?type=design&node-id=0%3A1&mode=design&t=T04ho3tIh2vIzivS-1
+O protótipo desenvolvido está disponível para acesso através do nosso <a href="https://www.figma.com/proto/3RcvZjYx66Hn4ibVR8qiTA/SIMPAC-PROJETO?node-id=61-1171&scaling=contain&content-scaling=fixed">protótipo interativo</a>. Este protótipo foi criado utilizando a plataforma Figma, permitindo que qualquer pessoa possa testar e interagir com a interface que projetamos. Ao acessar o link, os usuários terão a oportunidade de explorar as funcionalidades e o layout da nossa aplicação de forma intuitiva e prática.
 
 <h1 id="implementacao">7. Implementação</h1>
 
