@@ -118,6 +118,10 @@ Para entender melhor as necessidades dos stakeholders, utilizamos o mapa de empa
     <p>Figura 5 - Mapa de Empatia da Luana Pereira</p>
 </div>
 
+## Avaliação da Análise de Tarefas, Usuário e Funções
+
+Em uma conversa virtual, apresentamos à cliente todas as nossas análises. Ela ressaltou a necessidade de que a nova demanda fosse diferente do sistema atualmente em uso. A cliente destacou que seria de grande ajuda ter acesso ao sistema por dispositivos móveis, tanto Android quanto iOS. Além disso, ela mencionou a importância de permitir que o avaliador pudesse avaliar os resumos durante as sessões de pôster e oral. No entanto, com exceção desses pontos, ela concordou com o restante das análises e apresentadas.
+
 <h1 id="requisitos">4. Engenharia de Requisitos</h1>
 
 ## 4.1. Especificação de Requisitos
@@ -197,203 +201,9 @@ O principal objetivo desse projeto é entregar a melhor experiência possível p
 - Assegurar a justiça e imparcialidade nas avaliações, mantendo a qualidade.
 - Gerenciar uma alta carga de trabalho, incluindo a avaliação simultânea de múltiplos trabalhos.
 
-### 4.1.5. Avaliação da Engenharia de Requisitos
+## 4.2. Avaliação da Especificação de Requisitos
 
-<hr>
-
-#### Requisitos de Alto Nível
-
-##### 1. Aplicação web separada do site da Univiçosa
-
-<blockquote>
-<u><b>Consistência e Padrões</b></u>
-
-**Avaliação:** Mantém a consistência com a marca, o que ajuda na identificação e confiança do usuário. A separação clara pode fortalecer a identidade da aplicação, mas deve garantir que elementos essenciais de branding sejam mantidos.<br>
-**Sugestão:** Certificar-se de que os elementos visuais e a linguagem da marca Univiçosa sejam incorporados na nova aplicação para manter a consistência.
-</blockquote>
-
-<blockquote>
-<u><b>Reconhecimento em vez de memorização</b></u>
-
-**Avaliação:** A separação pode facilitar o reconhecimento do sistema como uma entidade distinta, mas pode exigir que os usuários aprendam uma nova interface.<br>
-**Sugestão:** Minimizar a curva de aprendizado utilizando ícones e terminologias familiares aos usuários do site principal.
-</blockquote>
-
-##### 2. Uma área para os avaliadores, administrador e usuários comuns (Alunos e demais participantes)
-
-<blockquote>
-<u><b>Flexibilidade e Eficiência de Uso</b></u>
-
-**Avaliação:** Facilita a personalização da experiência do usuário de acordo com suas necessidades específicas.<br>
-**Sugestão:** Implementar configurações personalizáveis para diferentes tipos de usuários para aumentar a eficiência de uso.
-</blockquote>
-
-<blockquote>
-<u><b>Controle e Liberdade do Usuário</b></u>
-
-**Avaliação:** Usuários sabem claramente onde devem acessar suas áreas específicas, reduzindo a possibilidade de erro.<br>
-**Sugestão:** Utilizar menus e navegações claras para separar as áreas de cada tipo de usuário, garantindo fácil acesso e minimização de erros.
-</blockquote>
-
-##### 3. Paleta de cores igual ao do site da Univiçosa
-
-<blockquote>
-<u><b>Estética e Design Minimalista</b></u>
-
-**Avaliação:** A uniformidade nas cores mantém a interface limpa e familiar, ajudando na navegabilidade e na estética geral.<br>
-**Sugestão:** Manter a paleta de cores consistente, mas explorar variações para destacar seções ou funcionalidades importantes.
-</blockquote>
-
-<hr>
-
-#### Administrador
-
-##### 4. Gestão de Trabalhos
-
-<blockquote>
-<u><b>Visibilidade do Status do Sistema</b></u>
-
-**Avaliação:** É importante que o administrador tenha feedback claro sobre o status das operações (e.g., sucesso ou erro ao cadastrar um trabalho).<br>
-**Sugestão:** Implementar mensagens de confirmação e alertas visuais claros após cada operação.
-</blockquote>
-
-<blockquote>
-<u><b>Prevenção de Erros</b></u>
-
-**Avaliação:** Formular validações de dados ajudam a evitar erros de entrada.<br>
-**Sugestão:** Utilizar validações em tempo real e fornecer feedback imediato sobre erros nos formulários.
-</blockquote>
-
-##### 5. Administração de Usuário
-
-<blockquote>
-<u><b>Controle e Liberdade do Usuário</b></u>
-
-**Avaliação:** Administradores devem ter a capacidade de desfazer ações (e.g., confirmação ao excluir um usuário).<br>
-**Sugestão:** Incluir funcionalidades de desfazer e confirmações para ações críticas.
-</blockquote>
-
-<blockquote>
-<u><b>Flexibilidade e Eficiência de Uso</b></u>
-
-**Avaliação:** Interfaces de gerenciamento devem ser eficientes para admins experientes, com atalhos e operações rápidas.<br>
-**Sugestão:** Prover atalhos de teclado e operações em massa para aumentar a eficiência administrativa.
-</blockquote>
-
-##### 6. Histórico de Trabalhos
-
-<blockquote>
-<u><b>Visibilidade do Status do Sistema</b></u>
-
-**Avaliação:** O histórico deve ser fácil de acessar e deve fornecer feedback claro sobre a visualização dos dados.<br>
-**Sugestão:** Incluir filtros e opções de busca para facilitar a navegação no histórico.
-</blockquote>
-
-<hr>
-
-#### Avaliadores
-
-##### 7. Dashboard de Avaliação
-
-<blockquote>
-<u><b>Consistência e Padrões</b></u>
-
-**Avaliação:** Painéis personalizados devem seguir padrões de design consistentes para facilitar o uso.<br>
-**Sugestão:** Utilizar uma estrutura de layout consistente com componentes reutilizáveis.
-</blockquote>
-
-<blockquote>
-<u><b>Reconhecimento em vez de Memorização</b></u>
-
-**Avaliação:** Critérios de avaliação e prazos devem ser visíveis e claros, evitando a necessidade de memorização.<br>
-**Sugestão:** Destacar informações importantes em locais visíveis e de fácil acesso.
-</blockquote>
-
-##### 8. Visualização de Trabalhos
-
-<blockquote>
-<u><b>Visibilidade do Status do Sistema</b></u>
-
-**Avaliação:** Detalhes dos trabalhos devem ser claros e acessíveis.<br>
-**Sugestão:** Utilizar layouts organizados e clareza na apresentação dos detalhes dos trabalhos.
-</blockquote>
-
-<blockquote>
-<u><b>Prevenção de Erros</b></u>
-
-**Avaliação:** Facilitar a navegação e a visualização correta das informações dos trabalhos atribuídos.<br>
-**Sugestão:** Incluir verificações de consistência e navegação intuitiva.
-</blockquote>
-
-##### 9. Registro de Avaliações
-
-<blockquote>
-<u><b>Flexibilidade e Eficiência de Uso</b></u>
-
-**Avaliação:** Formulários de avaliação devem ser intuitivos e eficientes para permitir avaliações rápidas e precisas.<br>
-**Sugestão:** Utilizar formulários dinâmicos e com feedback imediato para entradas.
-</blockquote>
-
-<blockquote>
-<u><b>Reconhecimento em vez de Memorização</b></u>
-
-**Avaliação:** Comentários e notas devem ser facilmente registráveis e editáveis.<br>
-**Sugestão:** Incluir opções de edição rápida e salvar automaticamente rascunhos de avaliações.
-</blockquote>
-
-##### 10. Comunicação com Organizadores
-
-<blockquote>
-<u><b>Ajuda e Documentação</b></u>
-
-**Avaliação:** Disponibilizar um meio de comunicação direto ajuda na resolução de problemas e dúvidas.<br>
-**Sugestão:** Implementar chat de suporte ou sistema de tickets com resposta rápida.
-</blockquote>
-
-<hr>
-
-#### Usuários Comuns
-
-##### 11. Visualização de Trabalhos
-
-<blockquote>
-<u><b>Reconhecimento em vez de Memorização</b></u>
-
-**Avaliação:** Navegação e visualização de trabalhos devem ser intuitivas, com informações importantes facilmente acessíveis.<br>
-**Sugestão:** Implementar uma interface de usuário limpa e intuitiva, com acesso rápido às informações relevantes.
-</blockquote>
-
-##### 12. Funcionalidades Sociais (opcional)
-
-<blockquote>
-<u><b>Flexibilidade e Eficiência de Uso</b></u>
-
-**Avaliação:** Recursos sociais devem ser opcionais e não devem interferir com as funções principais do sistema.<br>
-**Sugestão:** Incluir opções de ativar/desativar funcionalidades sociais conforme a preferência do usuário.
-</blockquote>
-
-<blockquote>
-<u><b>Ajuda e Documentação</b></u>
-
-**Avaliação:** Incluir guias para uso de funcionalidades sociais pode ajudar usuários que não estejam familiarizados com elas.<br>
-**Sugestão:** Disponibilizar tutoriais e FAQs para guiar os usuários no uso dessas funcionalidades.
-</blockquote>
-
-##### 13. Busca Avançada e Filtros
-
-<blockquote>
-<u><b>Estética e Design Minimalista</b></u>
-
-**Avaliação:** A busca avançada deve ser clara e fácil de usar, com resultados atualizados dinamicamente conforme os filtros são aplicados.<br>
-**Sugestão:** Implementar uma interface de busca simples com filtros visíveis e fáceis de aplicar.
-</blockquote>
-
-<blockquote>
-<u><b>Consistência e Padrões</b></u>
-
-**Avaliação:** Filtros e critérios de busca devem ser consistentes e intuitivos.<br>
-**Sugestão:** Manter uma estrutura padronizada para os filtros e opções de busca, facilitando o reconhecimento e uso eficiente.
-</blockquote>
+Durante uma conversa por mensagem, apresentamos à cliente os requisitos levantados. A cliente aprovou todos os requisitos, expressando confiança de que não haveria mudanças até o próximo SIMPAC. No entanto, ela mencionou que, com a possibilidade de ocorrer outro evento, não se pode descartar futuras alterações nos requisitos.
 
 <h1 id="projeto_conceitual">5. Projeto Conceitual e Especificaçao do Design</h1>
 
@@ -409,19 +219,17 @@ Foi organizado um fluxograma para orgarnizar as informações, identificar açõ
 
 ## 5.2. Wireframe
 
-A partir do fluxograma, foi criado então o wireframe, que é uma representação visual básica e esquemática da estrutura de nossa aplicação web. Seu objetivo principal pe definir a distribuição de elementos da natela, sem se preocupar muito com detalhes visuais.
+A partir do fluxograma, foi criado então o wireframe, que é uma representação visual básica e esquemática da estrutura de nossa aplicação web. Seu objetivo principal é definir a distribuição de elementos da tela, sem se preocupar muito com detalhes visuais.
 
-- Pela tela inicial será possível observar informações como em qual edição o evento se encontra. E qual caminho o usuario gostaria de seguir.
-- Para todas escolhas elas serão necessárias um login para confirmar a identidade porém alguns podem ser organizadores e terão um maior nível de acesso.
-- O administrador poderá criar os trabalhos para serem avaliados, alterar eles caso tenham cometido erros ou até mesmo apagar, conferir os resultados, checar os avaliadores cadastrados além de poder adicionar ou excluir caso seja necessário.
--  O Avaliador quando terminar suas avaliações lhe será mostrado uma tabela com informações de seus votos e caso o mesmo queira trocar ele terá a oportunidade.
-- Para os resultados, que serão disponíveis apenas à organização do evento, lhe será disposto um login e ao entrar, basta escolher o curso que deseja olhar no momento, e será mostrado uma tabela com as notas tanto em poster quanto apresentações orais.
-
-![Wireframe](./Imagens/Wireframe.png)
+Para acessar basta <a href="https://www.figma.com/proto/evYMRztlg5aXpRlEvPZu7c/DESKTOP?node-id=1-3842&t=j1q3tyTlVXteQkhD-0&scaling=scale-down-width&content-scaling=fixed&page-id=1%3A2722">clicar aqui</a> e visualizar a apresentação.
 
 <h1 id="prototipacao">6. Prototipação</h1>
 
 O protótipo desenvolvido está disponível para acesso através do nosso <a href="https://www.figma.com/proto/3RcvZjYx66Hn4ibVR8qiTA/SIMPAC-PROJETO?node-id=61-1171&scaling=contain&content-scaling=fixed">protótipo interativo</a>. Este protótipo foi criado utilizando a plataforma Figma, permitindo que qualquer pessoa possa testar e interagir com a interface que projetamos. Ao acessar o link, os usuários terão a oportunidade de explorar as funcionalidades e o layout da nossa aplicação de forma intuitiva e prática.
+
+## Avaliação da Prototipação
+
+No dia 22/06/2024, foi enviado para Eliene, coordenadora do projeto SIMPAC, o protótipo do aplicativo web, criado pela nossa equipe de acordo com os requisitos passados a nós. Por motivos referentes a falta de tempo de ambos os lados, nossa equipe precisou gravar e enviar um vídeo explicativo sobre o protótipo, mostrando todas as suas funções, para que ela pudesse compreender seu funcionamento, além de contribuir para sua exploração do protótipo de forma individual, através do link enviado por nós. Em sua resposta, a Eliene masnifestou uma dúvida quanto ao modo de avaliação “ao vivo”, e esta dúvida foi sanada por nós. Para corresponder as expectativas, também foram feitas alterações no protótipo, de acordo com a dúvida apresentada. No mais, nenhum outro questionamento foi levantado por ela, deixando a entender que o protótipo está alinhado de acordo com os requisitos e suas vontades.
 
 <h1 id="implementacao">7. Implementação</h1>
 
